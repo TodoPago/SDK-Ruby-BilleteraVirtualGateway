@@ -27,7 +27,7 @@ class MockClient < ServiceConnector
 
 
 	def discoverPaymentMethodsBvg(discoverEndpointBVG)
-		@lastRequest = 'https://developers.todopago.com.ar/api/PaymentMethods/Discover' 
+		@lastRequest = 'https://portal.integration.todopago.com.ar/api/PaymentMethods/Discover' 
 
 		if (@payments_ok)
 	    	response = @dataProvider.discoverPaymentMethodsResponseOK()
@@ -78,7 +78,7 @@ class MockClient < ServiceConnector
 
 	def getCredentials(user)
 
-		@lastRequest = "https://developers.todopago.com.ar/api/Credentials"
+		@lastRequest = "https://portal.integration.todopago.com.ar/api/Credentials"
 
 	    # aca mando el JSON RestClient.post url, user.getData.to_json, :content_type => :json
 	    if ( user.user !=  @user )

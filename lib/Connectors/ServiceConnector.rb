@@ -10,7 +10,7 @@ class ServiceConnector
 		if args[0].eql? "prod"
 			endpoint = 'https://apis.todopago.com.ar/'
 		else
-			endpoint = 'https://developers.todopago.com.ar/'
+			endpoint = 'https://portal.integration.todopago.com.ar/'
 			#endpoint = 'https://localhost:10443/'
 		end
 

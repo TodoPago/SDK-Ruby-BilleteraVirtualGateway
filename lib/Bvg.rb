@@ -5,8 +5,8 @@ require 'json'
 
 #TRANSACTION_ENDPOINT = 'transactions/api/BSA/transaction'
 #PUSHNOTIFICATION_ENDPOINT 	 = 'transactions/api/BSA/transaction/notificacionPush'
-TRANSACTION_ENDPOINT = 'tx/v1/bsa'
-PUSHNOTIFICATION_ENDPOINT = 'tx/v1/bsa'
+TRANSACTION_ENDPOINT = 'transactions/api/BSA/transaction'
+PUSHNOTIFICATION_ENDPOINT = 'ms/transactions/api/BSA/transaction/notificacionPush'
 DISCOVER_ENDPOINT 	 = 'discover/api/BSA/paymentMethod/discover'
 
 

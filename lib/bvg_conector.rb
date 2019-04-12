@@ -5,7 +5,7 @@ require "../lib/Bvg.rb"
 
 require_relative "Connectors/RestConnector"
 
-$versionTodoPago = '1.1.0'
+$versionTodoPago = '1.2.0'
 
 class BvgConnector
   # método inicializar clase

@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'BVGConector'
-  s.version = '1.0.0'
-  s.date = '2017-03-07'
+  s.version = '1.2.0'
+  s.date = '2019-04-12'
   s.summary="test conector"
   s.description = "Conector para la plataforma de pagos"
   s.authors = ["Softtek"]
